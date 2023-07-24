@@ -5,12 +5,10 @@ import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import { appWithTranslation } from 'next-i18next';  
+import { AppProps } from 'next/app';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout: React.FunctionComponent<React.PropsWithChildren<AppProps>> = ({ children }) =>{
   return (
     <html suppressHydrationWarning lang="en">
       {/*
@@ -31,4 +29,8 @@ export default function RootLayout({
   );
 }
 
-import { Providers } from "./providers";
+export default appWithTranslation(RootLayout);
+
+import Providers from "./providers";
+import { GetStaticProps } from "next";
+

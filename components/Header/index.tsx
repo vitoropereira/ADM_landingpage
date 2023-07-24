@@ -54,17 +54,17 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/ADM-2.png"
+                  src="/images/logo/logo-2.png"
                   alt="logo"
-                  width={70}
-                  height={15}
+                  width={112}
+                  height={24}
                   className="dark:hidden"
                 />
                 <Image
-                  src="/images/logo/ADM-2.png"
+                  src="/images/logo/logo.png"
                   alt="logo"
-                  width={70}
-                  height={15}
+                  width={112}
+                  height={24}
                   className="hidden dark:block"
                 />
               </Link>
