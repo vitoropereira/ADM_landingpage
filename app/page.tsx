@@ -2,7 +2,7 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 // import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
+// import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 // import Features from "@/components/Features";
@@ -22,7 +22,7 @@ const Home = () => {
       <Hero />
       {/* <Features /> */}
       <Video />
-      <Brands />
+      {/* <Brands /> */}
       <AboutSectionOne />
       {/* <AboutSectionTwo /> */}
       <Testimonials />
